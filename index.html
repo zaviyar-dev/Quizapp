@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            color: white;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .QnA {
+            margin: 1vw 0 0 0;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+        input {
+            visibility: hidden;
+            /* height: 5vw;
+            width: 5vw; */
+        }
+        .opt:checked + label{
+            background-color: skyblue;
+        }
+        label:hover {
+            color: #1a1b1d;
+            background-color: #fff;
+        }
+        label{
+            padding: 1vw 3vw;
+            border: 2px solid #fff;
+            border-radius: 2vw;
+        }
+        .container{
+            width: 100%;
+        }
+        .main-container {
+            /* margin: 0 0 0 5vw; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a1b1d;
+            border-radius: 0.7vw;
+            width: 40vw;
+        }
+
+        li {
+            padding: 1.3vw 0;
+            font-size: 1.2rem;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            font-size: 1rem;
+            padding: 1vw 3vw;
+            border: none;
+            border-radius: 2vw;
+
+        }
+
+        button:hover {
+            background-color: #19d95e;
+        }
+
+        li {
+            list-style: none;
+        }
+        span{
+            color: black;
+            width: 5vw;
+            height: 5vw;
+            border-radius: 5vw;
+            text-align: center;
+            font-size: 2rem;
+            background-color: #19d95e;
+            /* padding: 1vw 1vw; */
+            border: 2px solid red;
+            display: block;
+            margin: auto;
+        }
+        @media only screen and (min-width: 800px) and (max-width: 1000px){
+            .main-container{
+                width: 65vw;
+            }
+            li{
+                font-size: 1.3rem;
+            }
+            button{
+                font-size: 1.3rem;
+            }
+            h4{
+                font-size: 2.4rem;
+            }
+            label{
+                padding: 1vw 1vw;
+            }
+        } 
+        @media only screen and (min-width: 515px) and (max-width: 800px){
+            .main-container{
+                width: 85vw;
+                height: 78vw;
+            }
+            li{
+                font-size: 1.3rem;
+            }
+            button{
+                font-size: 1.3rem;
+                margin-top: 6vw;
+            }
+            h4{
+                font-size: 2.4rem;
+            }
+            label{
+                padding: 1vw 1vw;
+            }
+        } 
+        @media only screen and (min-width: 400px) and (max-width: 515px){
+            .main-container{
+                width: 105vw;
+                height: 95vw;
+            }
+            li{
+                font-size: 1.3rem;
+            }
+            button{
+                font-size: 1.3rem;
+                margin-top: 6vw;
+            }
+            h4{
+                font-size: 2.4rem;
+            }
+            label{
+                padding: 1vw 1vw;
+            }
+        } 
+        @media only screen and (min-width: 250px) and (max-width: 400px){
+            .main-container{
+                width: 145vw;
+                height: 120vw;
+            }
+            li{
+                font-size: 0.8rem;
+            }
+            button{
+                font-size: 1.3rem;
+                margin-top: 6vw;
+            }
+            h4{
+                font-size: 2rem;
+            }
+            label{
+                padding: 1vw 1vw;
+            }
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+
+        </div>
+        <button onclick="submit()">Submit</button>
+    </div>
+    <!-- <div class="score">
+        <span>3</span>
+    </div> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
