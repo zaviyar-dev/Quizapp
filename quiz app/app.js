@@ -18,44 +18,6 @@ let questionDb = [
             <label for="Q1">All of these</label>
         </li>
     </ul>`,
-    `<ul>
-        <h4>React is a</h4>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q1" value="wrong" class="opt">
-            <label for="Q1">JavaScript Framework</label>
-        </li>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q2" value="wrong" class="opt">
-            <label for="Q1">JavaScript Library for website developement</label>
-        </li>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q3" value="correct" class="opt">
-            <label for="Q1">JavaScript Library for website designing</label>
-        </li>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q4" value="wrong" class="opt">
-            <label for="Q1">Both b and c</label>
-        </li>
-    </ul>`,
-    `<ul>
-        <h4>Which statement is correct</h4>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q1" value="wrong" class="opt">
-            <label for="Q1">Bootstrap is framework of HTML CSS</label>
-        </li>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q2" value="wrong" class="opt">
-            <label for="Q1">JavaScript only use in website developement</label>
-        </li>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q3" value="correct" class="opt">
-            <label for="Q1">Node.js support non-blocking I/O model</label>
-        </li>
-        <li class="QnA">
-            <input type="radio" name="ans" id="Q4" value="wrong" class="opt">
-            <label for="Q1">All statements are correct</label>
-        </li>
-    </ul>`,
 ]
 
 let answer = 'correct';
